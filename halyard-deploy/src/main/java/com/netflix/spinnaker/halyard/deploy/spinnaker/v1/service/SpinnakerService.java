@@ -129,7 +129,7 @@ abstract public class SpinnakerService<T> implements HasServiceSettings<T> {
 
   public enum Type {
     CLOUDDRIVER("spin-clouddriver", "clouddriver"),
-    CLOUDDRIVER_BOOTSTRAP("spin-clouddriver-bootstrap", "clouddriver-bootstrap"),
+    CLOUDDRIVER_BOOTSTRAP("spin-clouddrvr-bootstrap", "clouddriver-bootstrap"),
     CONSUL_CLIENT("spin-consul-client", "consul-client"),
     CONSUL_SERVER("spin-consul-server", "consul-server"),
     DECK("spin-deck", "deck"),
